@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Web Page</title>
+    <style>
+        body {
+            background-color: #222;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            padding-top: 200px;
+            padding: 30px;
+            text-align: center;
+            top: 100px;
+            
+        }
+        
+        h1{
+            animation: slide1 1s ease;
+        
+        }
+        @keyframes slide1{
+            from{
+                transform: translate(-800px);
+                opacity: 0;
+            }
+            to{
+                transform: translate(0);
+                opacity: 1;
+            }
+        }
+         h2{
+            animation: slide2 1s ease;
+        
+        }
+        @keyframes slide2{
+            from{
+                transform: translate(800px);
+                opacity: 0;
+            }
+            to{
+                transform: translate(0);
+                opacity: 1;
+            }
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            top: 0%;
+            
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #aaa;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .games {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .game {
+            background-color: #555;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .game img {
+            width: 100%;
+            height: auto;
+        }
+        .game:hover{
+            transform: scale(1.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .game h2 {
+            margin: 10px 0;
+        }
+
+        .game p {
+            color: #bbb;
+        }
+        .container {
+            width: 300px;
+            padding: 16px;
+            background-color:#333;
+            margin: 0 auto;
+            margin-top: 100px;
+            border: 1px solid black;
+            border-radius: 4px;
+}
+
+        input[type=text], textarea {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+    }
+
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+}
+
+        input[type=submit]:hover {
+        opacity: 0.8;
+}
+
+        footer {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        .home img{
+            width: 60%;
+            height: 100%;
+            float: left;
+        
+        }
+        .home p{
+            padding-left: 10px;
+            font-size: 17px;
+            align-items: center;
+            justify-content: space-between;
+            text-align: justify;
+        }
+        h3{
+            font-size: 25px;
+            position: relative;
+            top: 40px;
+            text-align: center;
+            align-items: center;
+        }
+        h4{
+            font-size: 25px;
+            position: relative;
+            top: 40px;
+            text-align: center;
+            align-items: center;
+        }
+        .gam p{
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="ho">Welcome to the Gaming Zone</h1>
+    </header>
+
+    <nav>
+        <a href="#ho">Home</a>
+        <a href="#game2">Games</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <h2 id="ho">Home</h2>
+        <div class="home">
+            <img src="ww.jpg" alt=""><p>
+            <p>In the video game industry, 2022 saw the lingering effects of the COVID-19 pandemic on the industry, slowing hardware sales for most of the year as well as development delays for major titles. The industry continued its trend of acquisitions and mergers, highlighted by Microsoft announcing its plan to acquire Activision Blizzard for nearly $69 billion. The industry as a whole still dealt with issues such as workplace harassment and discrimination, as well as crunch periods, leading to at least the quality assurance staff at three separate studios to vote to unionize.[1]
+                Production of the ninth generation consoles, the PlayStation 5 and Xbox Series X/S, remained constrained for the first part of the year, but eased up later in the year. New hardware trends included the widespread availability of graphics cards with real-time ray tracing, increasing realism fidelity in some games, and the release of the Steam Deck by Valve, a handheld personal computing device capable of playing most games available on Steam. The gaming community remained cautious on the metaverse and blockchain games, though leading publishers expressed their desires to move more into that space.[1]
+                Notable releases from this year included Tom Clancy's Rainbow Six Extraction, Pokemon Legends: Arceus, Sifu, The King of Fighters XV, Elden Ring, Horizon Forbidden West, Tunic, Kirby and the Forgotten Land, Lego Star Wars: The Skywalker Saga, Neon White, Teenage Mutant Ninja Turtles: Shredder's Revenge, The Quarry, Stray, Live A Live, Xenoblade Chronicles 3, Cult of the Lamb, The Last of Us Part I, Splatoon 3, Metal: Hellsinger, Return to Monkey Island, A Plague Tale: Requiem, Vampire Survivors, Bayonetta 3, God of War: Ragnarok, and Evil West.
+                Electronic Arts, Microsoft, and Activision Blizzard, among others, halted sales of physical and digital products into Russia during the conflict.[71][72] Electronic Arts announced on March 2 that it had started the process to remove the Russia national football team and Russian football clubs from its FIFA series as well as removing the Belarusian and Russian national teams and their club teams from NHL 22.[73] In addition to preventing purchase of their games in Russia, Nintendo announced on March 9 that Advance Wars 1+2: Re-Boot Camp, a tactical war game with a faction based on Soviet-era Russia, would be indefinitely delayed due to "recent world events
+            </p>
+            
+        </div>
+        <h2 id="game2">Action Games</h2>
+        <div class="games" >
+            <div class="game">
+                <img src="god.jpg" alt="Game 1">
+                <h2>God of war</h2>
+                <p>In God of War, players control Kratos, a Spartan warrior who is sent by the Greek gods to kill Ares, the god of war. As the story progresses, Kratos is revealed to be Ares' former servant, who had been tricked into killing his own family and is haunted by terrible nightmares.</p>
+            </div>
+            <div class="game">
+                <img src="img2.jpg" alt="Game 2">
+                <h2>Assassin's Creed</h2>
+                <p>Assassin's Creed is an action-adventure game, set in an open-world environment, which is played from a third-person view in which the player primarily assumes the role of Altaïr, as experienced by protagonist Desmond Miles.</p>
+            </div>
+            <div class="game">
+                <img src="call.jpg" alt="Game 3">
+                <h2>Call of Duty</h2>
+                <p>Call of Duty is a video game series and media franchise published by Activision, starting in 2003. The games were first developed by Infinity Ward, then by Treyarch and Sledgehammer Games. Several spin-off and handheld games were made by other developers. The most recent title, Call of Duty: Modern Warfare III, was released on November 10, 2023.</p>
+            </div>
+        </div>
+        <h2>Fantacy Games</h2>
+        <div class="games">
+            <div class="game">
+                <img src="gta.jpg" alt="Game 1">
+                <h2>Gta 5</h2>
+                <p>Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. Outside of the missions, players may freely roam the open world.</p>
+            </div>
+            <div class="game">
+                <img src="cr7.jpg" alt="Game 2">
+                <h2>Fifa 18</h2>
+                <p>FIFA 22 Ultimate Team is a game mode where users can create a team and play online or offline games to earn various cards like “FUT Heroes” to add to their team. FIFA 22 Ultimate Team introduced "FUT Heroes" cards that represent different players with special ratings and attributes.</p>
+            </div>
+            <div class="game">
+                <img src="w2k.jpeg" alt="Game 3">
+                <h2>WWE 2K23</h2>
+                <p>WWE 2K23 is a 2023 professional wrestling sports video game developed by Visual Concepts and published by 2K. It is the twenty-third overall installment of the video game series based on WWE, the tenth game under the WWE 2K banner, and the successor to WWE 2K22.</p>
+            </div>
+        </div>
+        <h4 id="news">News</h4>
+        <div class="gam">
+        <p>Gaming is now a bigger industry than movies and sports combined. Revenue for gaming reached $184 billion in 2022, and the number of gamers is expected to grow to 3.6 billion by 2025. It's not just kids either: 38 percent of gamers are between the ages of 18 and 34 years, and 16 percent are older than 55.</p>
+        <p>What games are famous right now?<br><br>
+           1. Counter-Strike 2 & GO. Valve. <br><br>
+            2. Minecraft. Mojang Studios. <br><br>
+            3. Fortnite. Epic Games. <br><br>
+            4. Call of Duty: Modern Warfare II/III/Warzone 2.0. Activision Publishing. <br><br>
+            5. ROBLOX. Roblox Corporation. <br><br>
+            6. League of Legends. Riot Games. <br><br>
+            7 .Cyberpunk 2077. CD PROJEKT RED. <br><br>
+            8.The Sims 4. Electronic Arts..</p> 
+        <p>YOU CAN REFER A NEWS FROM HERE: <a href="https://gamerant.com/gaming/" style="color: #fff;"> Gaming News</a></p>
+    </div>
+    <h3 id="contact">Contact</h3>
+    <div class="container">
+        <form action="/submit" method="post">
+          <label for="fname">First Name:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Last Name:</label><br>
+          <input type="text" id="lname" name="lname"><br>
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" name="email"><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
+     </div>
+    </main>
+    <footer>
+        <p>&copy; 2022 Gaming Zone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
